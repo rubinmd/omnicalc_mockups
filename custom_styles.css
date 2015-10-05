@@ -1,3 +1,14 @@
-body {
 
+
+.floatleft{
+  float:right;
 }
+
+.leftbtn{text-align:left;}
+.righttext{text-align:right;padding-top:7px;}
+.long{width:100%;}
+.subbtn{width:100%;}
+s*{border: thin red solid;}
+s.row{padding-bottom:15px; }
+.spaced{padding-bottom:15px;}
+.submit{padding-top:10px; height: 59px;}
