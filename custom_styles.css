@@ -1,15 +1,4 @@
-
-
-.floatleft{
-  float:right;
-}
-
-.leftbtn{text-align:left;}
-.righttext{text-align:right;padding-top:7px;}
-.long{width:100%;}
 .subbtn{width:100%;}
-s*{border: thin red solid;}
-s.row{padding-bottom:15px; }
-.spaced{padding-bottom:15px;}
-.submit{padding-top:10px; height: 59px;}
 .paddedright{padding-left:30px;padding-right:30px;}
+.dl-horizontal dt{white-space: normal;word-wrap:break-word;}
+/* s*{border: thin red solid;} */

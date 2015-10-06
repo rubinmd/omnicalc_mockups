@@ -65,27 +65,36 @@
       </div>
       <div class="col-sm-12 col-md-9 col-lg-9 container paddedright"> <!-- /right content area -->
         <div class="row panel panel-default">
-          <div class="panel-heading"><h3 class="panel-title">New Word Count Calculation</h3></div>
+          <div class="panel-heading"><h3 class="panel-title">New Loan Payment Calculation</h3></div>
           <div class="panel-body">
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="../loan_payment/results_start.html">
               <div class="form-group">
                 <!-- /content spot -->
-                <label for="textbox" class="col-sm-2 control-label">Text</label>
-                <div class="col-sm-10"><!-- /content spot -->
-                  <textarea type="text" rows="3" class="form-control" id="textbox" placeholder="Enter your text"></textarea>
+                <label for="apr" class="col-sm-2 control-label">APR</label>
+                <div class="col-sm-10">
+                  <!-- /content spot -->
+                  <input type="number" class="form-control" id="apr" placeholder="Enter the APR of the loan (as a percent)">
                 </div>
               </div>
               <div class="form-group">
                 <!-- /content spot -->
-                <label for="special_word" class="col-sm-2 control-label">Special Word (optional)</label>
-                <div class="col-sm-10"><!-- /content spot -->
-                  <input type="text" class="form-control" id="special_word" placeholder="Enter a word to count the occurrences of">
+                <label for="years" class="col-sm-2 control-label">Years</label>
+                <div class="col-sm-10">
+                  <!-- /content spot -->
+                  <input type="number" class="form-control" id="years" placeholder="Enter the number of years to repay the loan">
+                </div>
+              </div>
+                            <div class="form-group">
+                <!-- /content spot -->
+                <label for="principal" class="col-sm-2 control-label">Principal</label>
+                <div class="col-sm-10">
+                  <!-- /content spot -->
+                  <input type="number" class="form-control" id="principal" placeholder="Enter the principal of the loan">
                 </div>
               </div>
               <div class="form-group">
-                <div class="col-sm-2"><!-- /content spot -->
-                </div>
-                <div class="col-sm-10"><!-- /content spot -->
+                <div class="col-sm-offset-2 col-sm-10">
+                  <!-- /content spot -->
                   <button type="submit" class="btn btn-default subbtn btn-primary">Submit</button>
                 </div>
               </div>
